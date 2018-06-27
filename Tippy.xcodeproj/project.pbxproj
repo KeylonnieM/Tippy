@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		138CD63020E3208900EC4401 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 138CD62F20E3208900EC4401 /* SettingsViewController.m */; };
 		13E4FAE920E2D55E00C3CAA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4FAE820E2D55E00C3CAA3 /* AppDelegate.m */; };
 		13E4FAEC20E2D55E00C3CAA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4FAEB20E2D55E00C3CAA3 /* ViewController.m */; };
 		13E4FAEF20E2D55E00C3CAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4FAED20E2D55E00C3CAA3 /* Main.storyboard */; };
 		13E4FAF120E2D56000C3CAA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E4FAF020E2D56000C3CAA3 /* Assets.xcassets */; };
 		13E4FAF420E2D56000C3CAA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E4FAF220E2D56000C3CAA3 /* LaunchScreen.storyboard */; };
 		13E4FAF720E2D56000C3CAA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4FAF620E2D56000C3CAA3 /* main.m */; };
+		13E4FAFF20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E4FAFE20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		138CD62E20E3208900EC4401 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Tippy/SettingsViewController.h; sourceTree = "<group>"; };
+		138CD62F20E3208900EC4401 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Tippy/SettingsViewController.m; sourceTree = "<group>"; };
 		13E4FAE420E2D55E00C3CAA3 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E4FAE720E2D55E00C3CAA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13E4FAE820E2D55E00C3CAA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		13E4FAF320E2D56000C3CAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E4FAF520E2D56000C3CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E4FAF620E2D56000C3CAA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13E4FAFD20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewerControllerViewController.h; sourceTree = "<group>"; };
+		13E4FAFE20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewerControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		13E4FADB20E2D55E00C3CAA3 = {
 			isa = PBXGroup;
 			children = (
+				138CD62E20E3208900EC4401 /* SettingsViewController.h */,
+				138CD62F20E3208900EC4401 /* SettingsViewController.m */,
 				13E4FAE620E2D55E00C3CAA3 /* Tippy */,
 				13E4FAE520E2D55E00C3CAA3 /* Products */,
 			);
@@ -63,6 +71,8 @@
 				13E4FAEA20E2D55E00C3CAA3 /* ViewController.h */,
 				13E4FAEB20E2D55E00C3CAA3 /* ViewController.m */,
 				13E4FAED20E2D55E00C3CAA3 /* Main.storyboard */,
+				13E4FAFD20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.h */,
+				13E4FAFE20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.m */,
 				13E4FAF020E2D56000C3CAA3 /* Assets.xcassets */,
 				13E4FAF220E2D56000C3CAA3 /* LaunchScreen.storyboard */,
 				13E4FAF520E2D56000C3CAA3 /* Info.plist */,
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13E4FAEC20E2D55E00C3CAA3 /* ViewController.m in Sources */,
+				13E4FAFF20E2FEBA00C3CAA3 /* SettingsViewerControllerViewController.m in Sources */,
+				138CD63020E3208900EC4401 /* SettingsViewController.m in Sources */,
 				13E4FAF720E2D56000C3CAA3 /* main.m in Sources */,
 				13E4FAE920E2D55E00C3CAA3 /* AppDelegate.m in Sources */,
 			);
@@ -284,7 +296,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96W3N7G5K2;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +314,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 96W3N7G5K2;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
